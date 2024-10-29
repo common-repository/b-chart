@@ -1,0 +1,7 @@
+.bChart_parent_contener {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 15px auto;
+}

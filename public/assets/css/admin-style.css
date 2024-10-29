@@ -1,0 +1,27 @@
+/* Custom css for bPortfolio */
+.bpbc_shortcode_gen {
+  margin-top: 20px;
+}
+.bpbc_shortcode_gen label {
+  cursor: pointer;
+  font-size: 16px;
+  font-style: italic;
+}
+.bpbc_shortcode_gen span {
+  display: block;
+  margin: 5px 0;
+  background: #5d3dfd;
+}
+.bpbc_shortcode_gen input[type="text"] {
+  font-size: 14px;
+  border: none;
+  box-shadow: none;
+  padding: 4px 8px;
+  width: 100%;
+  background: transparent;
+  color: white;
+}
+
+.option_title .csf-notice.csf-notice-success {
+  font-size: 16px;
+}

@@ -1,0 +1,30 @@
+.svp-readonly .csf-fieldset {
+  opacity: 0.75;
+  filter: blur(1px);
+}
+.svp-readonly .csf-title {
+  opacity: 0.75;
+  filter: blur(1px);
+}
+
+.svp-readonly:hover:after {
+  content: "This option is available in the Pro Version only.";
+  position: absolute;
+  top: 0;
+  width: 95%;
+  height: 100%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #2196f3;
+  z-index: 9999;
+}
+
+.chart-readonly .csf-fieldset .csf--button-group .csf--button:nth-child(n + 4) {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
